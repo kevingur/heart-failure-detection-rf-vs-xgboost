@@ -1,1 +1,2 @@
-# heart-failure-detection-rf-vs-xgboost
+# Heart Failure Detection  
+### Random Forest vs XGBoost
