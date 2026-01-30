@@ -24,13 +24,13 @@ https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction
 
 Methods
 
-The following models are implemented and compared:
-	•Random Forest Classifier
-		•Baseline
-		•Tuned 
-	•XGBoost Classifier
-		•Baseline 
-		•Tuned 
+- **Random Forest Classifier**
+  - Baseline
+  - Tuned
+
+- **XGBoost Classifier**
+  - Baseline
+  - Tuned
 
 For baseline models, training and validation (CV) performance are compared to analyze overfitting.
 For tuned models, hyperparameter optimization is performed using cross-validation, and final evaluation is conducted on a held-out test set.
