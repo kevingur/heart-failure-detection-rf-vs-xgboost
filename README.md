@@ -52,10 +52,11 @@ Special attention is given to recall and F1-score due to their importance in med
 ⸻
 
 ##Results
-	- Both baseline models show signs of overfitting, with high training accuracy and lower validation accuracy.
-	- Hyperparameter tuning significantly reduces the accuracy gap between training and test sets. 
-	- The tuned XGBoost model still shows some overfitting, likely due to dataset size and model complexity.
-  	- The tuned Random Forest model outperforms XGBoost on this dataset. It may be attributed to the characteristics of the dataset and the limited hyperparameter tuning applied to XGBoost.
+
+- Both baseline models show signs of overfitting, with high training accuracy and lower validation accuracy.
+- Hyperparameter tuning significantly reduces the accuracy gap between training and test sets. 
+- The tuned XGBoost model still shows some overfitting, likely due to dataset size and model complexity.
+- The tuned Random Forest model outperforms XGBoost on this dataset. It may be attributed to the characteristics of the dataset and the limited hyperparameter tuning applied to XGBoost.
 
 
 Overall, tuning improves generalization performance for both models.
@@ -65,11 +66,12 @@ Overall, tuning improves generalization performance for both models.
 ##Requirements
 
 To run the notebook locally, make sure you have the following Python libraries installed:
-	- pandas
-	- numpy
-	- skicit-learn
-	- xgboost
-	- matplotlib
+
+- pandas
+- numpy
+- skicit-learn
+- xgboost
+- matplotlib
 	
 	
 ⸻
