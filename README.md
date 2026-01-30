@@ -10,7 +10,7 @@ The project follows a structured machine learning workflow, including data split
 
 ⸻
 
-Dataset
+##Dataset
 
 The dataset used in this project was obtained from Kaggle and contains demographic features such as age and sex, as well as multiple clinical and medical measurements related to cardiovascular health.
 It includes demographic and medical features commonly used for heart failure prediction tasks.
@@ -22,7 +22,7 @@ The dataset is balanced, and stratified splitting is applied to preserve class d
 https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction
 ⸻
 
-Methods
+##Methods
 
 - **Random Forest Classifier**
   - Baseline
@@ -37,42 +37,43 @@ For tuned models, hyperparameter optimization is performed using cross-validatio
 
 ⸻
 
-Evaluation Metrics
+##Evaluation Metrics
 
 Model performance is evaluated using multiple metrics to provide a comprehensive analysis:
-	•	Accuracy (for baseline comparison)
-	•	Precision
-	•	Recall
-	•	F1-score
-	•	Confusion Matrix
+	- Accuracy (for baseline comparison)
+	- Precision
+	- Recall
+	- F1-score
+	- Confusion Matrix
 
 Special attention is given to recall and F1-score due to their importance in medical prediction tasks.
 
 ⸻
 
-Results
-	•	Both baseline models show signs of overfitting, with high training accuracy and lower validation accuracy.
-	•	Hyperparameter tuning significantly reduces the accuracy gap between training and test sets. 
-	•	The tuned XGBoost model still shows some overfitting, likely due to dataset size and model complexity.
-  	•	The tuned Random Forest model outperforms XGBoost on this dataset. It may be attributed to the characteristics of the dataset and the limited hyperparameter tuning applied to XGBoost.
+##Results
+	- Both baseline models show signs of overfitting, with high training accuracy and lower validation accuracy.
+	- Hyperparameter tuning significantly reduces the accuracy gap between training and test sets. 
+	- The tuned XGBoost model still shows some overfitting, likely due to dataset size and model complexity.
+  	- The tuned Random Forest model outperforms XGBoost on this dataset. It may be attributed to the characteristics of the dataset and the limited hyperparameter tuning applied to XGBoost.
 
 
 Overall, tuning improves generalization performance for both models.
 
 ⸻
 
-Requirements
+##Requirements
 
 To run the notebook locally, make sure you have the following Python libraries installed:
-	•	pandas
-	•	numpy
-	•	scikit-learn
-	•	xgboost
-	•	matplotlib
-
+	- pandas
+	- numpy
+	- skicit-learn
+	- xgboost
+	- matplotlib
+	
+	
 ⸻
 
-Acknowledgments
+##Acknowledgments
 
 This project was completed as an independent machine learning project to practice model comparison, overfitting analysis, and hyperparameter tuning techniques.
 
