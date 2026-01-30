@@ -8,7 +8,6 @@ This repository contains a machine learning project focused on predicting heart 
 
 The project follows a structured machine learning workflow, including data splitting, model training, evaluation, and hyperparameter tuning, with a strong focus on generalization performance and overfitting analysis.
 
-⸻
 
 ## Dataset
 
@@ -20,7 +19,6 @@ The target variable indicates whether a patient has heart disease (HeartDisease)
 The dataset is balanced, and stratified splitting is applied to preserve class distribution across training, validation, and test sets.
 
 https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction
-⸻
 
 ## Methods
 
@@ -35,7 +33,6 @@ https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction
 For baseline models, training and validation (CV) performance are compared to analyze overfitting.
 For tuned models, hyperparameter optimization is performed using cross-validation, and final evaluation is conducted on a held-out test set.
 
-⸻
 
 ## Evaluation Metrics
 
@@ -49,7 +46,7 @@ Model performance is evaluated using multiple metrics to provide a comprehensive
 
 Special attention is given to recall and F1-score due to their importance in medical prediction tasks.
 
-⸻
+
 
 ## Results
 
@@ -61,7 +58,6 @@ Special attention is given to recall and F1-score due to their importance in med
 
 Overall, tuning improves generalization performance for both models.
 
-⸻
 
 ## Requirements
 
@@ -74,7 +70,6 @@ To run the notebook locally, make sure you have the following Python libraries i
 - matplotlib
 	
 	
-⸻
 
 ## Acknowledgments
 
