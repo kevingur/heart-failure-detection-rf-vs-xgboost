@@ -1,7 +1,7 @@
 # Heart Failure Detection  
 ## Random Forest vs XGBoost
 
-Overview
+##Overview
 
 Welcome to my Heart Failure Detection Project!
 This repository contains a machine learning project focused on predicting heart failure using clinical patient data. The main objective of the project is to compare the performance of Random Forest and XGBoost models, both in their baseline and tuned versions.
@@ -40,11 +40,12 @@ For tuned models, hyperparameter optimization is performed using cross-validatio
 ##Evaluation Metrics
 
 Model performance is evaluated using multiple metrics to provide a comprehensive analysis:
-	- Accuracy (for baseline comparison)
-	- Precision
-	- Recall
-	- F1-score
-	- Confusion Matrix
+
+- Accuracy (for baseline comparison)
+- Precision
+- Recall
+- F1-score
+- Confusion Matrix
 
 Special attention is given to recall and F1-score due to their importance in medical prediction tasks.
 
