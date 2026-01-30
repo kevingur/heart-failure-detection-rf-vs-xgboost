@@ -74,6 +74,4 @@ To run the notebook locally, make sure you have the following Python libraries i
 
 This project was completed as an independent machine learning project to practice model comparison, overfitting analysis, and hyperparameter tuning techniques.
 
-It represents my first end-to-end machine learning project, completed individually.
-
 Feedback and suggestions are always welcome!
