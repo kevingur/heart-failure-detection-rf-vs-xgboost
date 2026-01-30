@@ -1,7 +1,7 @@
 # Heart Failure Detection  
 ## Random Forest vs XGBoost
 
-##Overview
+## Overview
 
 Welcome to my Heart Failure Detection Project!
 This repository contains a machine learning project focused on predicting heart failure using clinical patient data. The main objective of the project is to compare the performance of Random Forest and XGBoost models, both in their baseline and tuned versions.
@@ -10,7 +10,7 @@ The project follows a structured machine learning workflow, including data split
 
 ⸻
 
-##Dataset
+## Dataset
 
 The dataset used in this project was obtained from Kaggle and contains demographic features such as age and sex, as well as multiple clinical and medical measurements related to cardiovascular health.
 It includes demographic and medical features commonly used for heart failure prediction tasks.
@@ -22,7 +22,7 @@ The dataset is balanced, and stratified splitting is applied to preserve class d
 https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction
 ⸻
 
-##Methods
+## Methods
 
 - **Random Forest Classifier**
   - Baseline
@@ -37,7 +37,7 @@ For tuned models, hyperparameter optimization is performed using cross-validatio
 
 ⸻
 
-##Evaluation Metrics
+## Evaluation Metrics
 
 Model performance is evaluated using multiple metrics to provide a comprehensive analysis:
 
@@ -51,7 +51,7 @@ Special attention is given to recall and F1-score due to their importance in med
 
 ⸻
 
-##Results
+## Results
 
 - Both baseline models show signs of overfitting, with high training accuracy and lower validation accuracy.
 - Hyperparameter tuning significantly reduces the accuracy gap between training and test sets. 
@@ -63,7 +63,7 @@ Overall, tuning improves generalization performance for both models.
 
 ⸻
 
-##Requirements
+## Requirements
 
 To run the notebook locally, make sure you have the following Python libraries installed:
 
@@ -76,7 +76,7 @@ To run the notebook locally, make sure you have the following Python libraries i
 	
 ⸻
 
-##Acknowledgments
+## Acknowledgments
 
 This project was completed as an independent machine learning project to practice model comparison, overfitting analysis, and hyperparameter tuning techniques.
 
