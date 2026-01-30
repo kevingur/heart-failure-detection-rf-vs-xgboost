@@ -12,7 +12,6 @@ The project follows a structured machine learning workflow, including data split
 ## Dataset
 
 The dataset used in this project was obtained from Kaggle and contains demographic features such as age and sex, as well as multiple clinical and medical measurements related to cardiovascular health.
-It includes demographic and medical features commonly used for heart failure prediction tasks.
 
 The target variable indicates whether a patient has heart disease (HeartDisease).
 
