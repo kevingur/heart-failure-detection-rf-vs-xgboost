@@ -25,13 +25,12 @@ https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction
 Methods
 
 The following models are implemented and compared:
-	•	Random Forest Classifier
-	•	Random Forest Baseline model
-	•	Random Forest Tuned model 
-  
-	•	XGBoost Classifier
-	•	XGBoost Baseline model
-	•	XGBoost Tuned model 
+	•Random Forest Classifier
+		•Baseline
+		•Tuned 
+	•XGBoost Classifier
+		•Baseline 
+		•Tuned 
 
 For baseline models, training and validation (CV) performance are compared to analyze overfitting.
 For tuned models, hyperparameter optimization is performed using cross-validation, and final evaluation is conducted on a held-out test set.
@@ -55,7 +54,7 @@ Results
 	•	Both baseline models show signs of overfitting, with high training accuracy and lower validation accuracy.
 	•	Hyperparameter tuning significantly reduces the accuracy gap between training and test sets. 
 	•	The tuned XGBoost model still shows some overfitting, likely due to dataset size and model complexity.
-  •	The tuned Random Forest model outperforms XGBoost on this dataset. It may be attributed to the characteristics of the dataset and the limited hyperparameter tuning applied to XGBoost.
+  	•	The tuned Random Forest model outperforms XGBoost on this dataset. It may be attributed to the characteristics of the dataset and the limited hyperparameter tuning applied to XGBoost.
 
 
 Overall, tuning improves generalization performance for both models.
